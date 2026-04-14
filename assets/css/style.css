@@ -8561,3 +8561,60 @@ body {
     height: auto;
   }
 }
+
+
+/* 📱 Mobile View */
+@media (max-width: 768px) {
+
+  .hero-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .sub-heading {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .donate-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .hero-image {
+    width: 100%;
+    margin-top: 20px;x
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* Green curve / circle fix */
+  .curve {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+  }
+}
