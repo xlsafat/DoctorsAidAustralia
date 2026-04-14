@@ -8600,7 +8600,7 @@ body {
 
   .hero-image {
     width: 100%;
-    margin-top: 20px;x
+    margin-top: 20px;
     text-align: center;
   }
 
@@ -8617,4 +8617,45 @@ body {
     right: 10px;
     position: absolute;
   }
+}
+
+/*photo card project*/
+/* Card container same height */
+.single-cases {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    padding: 20px;ß
+}
+
+/* Image same size */
+.cases-img img {
+    width: 100%;
+    height: 220px;       /* same height for all */
+    object-fit: cover;   /* image crop kore fit korbe */
+    border-radius: 20px;
+}
+
+/* Content equal height */
+.cases-caption {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Title spacing */
+.cases-caption h3 {
+    min-height: 60px;   /* sob title same space nibe */
+}
+
+/* Button always bottom */
+.prices {
+    margin-top: auto;
+}
+
+/* Button full width (optional but nice) */
+.header-btn {
+    width: 100%;
 }
